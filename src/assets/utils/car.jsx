@@ -60,7 +60,7 @@ const cars = [
         name: "Dodge Challenger R/T",
         description:"5.7 R/T HEMI V8",
         potency:"Torque 89,8 kgfm a 4000",
-        price: 25990,
+        price: 105990,
         color: "Preto",
         photo: Dodge,
         path:"/dodge",

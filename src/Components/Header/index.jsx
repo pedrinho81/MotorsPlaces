@@ -17,7 +17,7 @@ export default function Header() {
                         focusable="false"
                         data-prefix="fas"
                         data-icon="bars"
-                        class="w-6"
+                        className="w-6"
                         role="img"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 448 512"
@@ -52,7 +52,7 @@ export default function Header() {
                         focusable="false"
                         data-prefix="fas"
                         data-icon="shopping-cart"
-                        class="w-4"
+                        className="w-4"
                         role="img"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 576 512"
@@ -70,7 +70,7 @@ export default function Header() {
                         focusable="false"
                         data-prefix="fas"
                         data-icon="bell"
-                        class="w-4"
+                        className="w-4"
                         role="img"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 448 512"
@@ -81,7 +81,7 @@ export default function Header() {
                         ></path>
                     </svg>
                     <span
-                        class="text-white bg-red-700 absolute rounded-full text-xs -mt-2.5 ml-2 py-0 px-1.5"
+                        className="text-white bg-red-700 absolute rounded-full text-xs -mt-2.5 ml-2 py-0 px-1.5"
                     >1</span>
                 </Icon>
                 

@@ -1,5 +1,20 @@
 import tw from "tailwind-styled-components/dist/tailwind";
 
+export const DivTitle = tw.div`
+flex 
+justify-center 
+gap-2
+`
+
+export const IconTitle = tw.img`
+`
+
+export const Title = tw.h1`
+text-4xl 
+font-serif
+ my-auto
+`
+
 export const ContainerCard = tw.div`
 my-2
 mx-auto

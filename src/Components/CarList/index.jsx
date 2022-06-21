@@ -1,23 +1,23 @@
 import Cars from "../../assets/utils/car"
-import CarImg from "../../assets/images/camaro.png"
 import HeartIcon from "../../assets/images/coracao (1).png"
 import CartIcon from "../../assets/images/CartIcon1.png"
 import CarIcon from "../../assets/images/carIcon.png"
 import { Link } from "react-router-dom"
-import { ContainerCard, DivImg, DivIcon, Icon, DivInfo, DivInfoLeft, Name, Info, DivFooter, DivInfoRight, Symbol, Price, Miles } from "./styles"
+import { ContainerCard, DivImg, DivIcon, Icon, DivInfo, DivInfoLeft, Name, Info, DivFooter, DivInfoRight, Price, Miles, DivTitle,
+IconTitle, Title} from "./styles"
 export default function CarList() {
 
     return (
         <>
-            <div className="flex justify-center gap-2">
-            <img src={CarIcon} className="my-auto" alt="" />
-                <h1 className="text-4xl font-serif my-auto">Carros disponíveis 👇</h1>
-            </div>
+            <DivTitle className="">
+            <IconTitle src={CarIcon}/>
+                <Title className="text-4xl font-serif my-auto">Carros disponíveis 👇</Title>
+            </DivTitle>
             <div className="flex flex-wrap">
                
                 {Cars.map(car => {
                     return (
-                        <ContainerCard>
+                        <ContainerCard key={car.id}>
                             <DivImg>
                                 <DivIcon>
                                     <Icon src={HeartIcon} />
